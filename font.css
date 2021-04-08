@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'pt_serifbold';
+    src: url('C:/Users/PC/Desktop/сайт/fonts/ptserif-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serifbold_italic';
+    src: url('C:/Users/PC/Desktop/сайт/fonts/ptserif-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serifitalic';
+    src: url('C:/Users/PC/Desktop/сайт/fonts/ptserif-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_serifregular';
+    src: url('C:/Users/PC/Desktop/сайт/fonts/ptserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
