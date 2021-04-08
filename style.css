@@ -21,8 +21,10 @@ body {
 }
 
 .logo {
+	position: relative;
 	padding: 40px 0;
-	font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+	padding-left: 44px;
+	font: bold 24px/31px pt_serifregular, arial, helvetica, sans-serif;
 
 }
 
@@ -64,4 +66,26 @@ body {
 	top: 706px;
 	border-radius: 4px;
 	background: #0056EC;
+}
+
+.logo__circle {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%); 
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	opacity: .7;
+}
+
+.logo__circle_color_dark-blue {
+	background: #0056EC;
+}
+
+.logo__circle_color_blue {
+	left: 8px;
+	top: 56%;
+	background: #C8DBFB;
+
 }
