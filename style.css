@@ -24,10 +24,42 @@ body {
 	padding: 40px 0;
 }
 
+.navigation {
+	display: flex;
+	align-items: center;
+}
+
 .navigation__item {
-	padding: 13px 0;
+	padding: 0 13px;
 }
 
 .navigation__item:last-child {
 	padding-right:0;
+}
+
+.main-content__title {
+	position: absolute;
+	width: 567px;
+	height: 255px;
+	left: 195px;
+	top: 318px;
+	align-items: center;
+}
+
+.main-content__subtitle {
+	position: absolute;
+	width: 455px;
+	height: 52px;
+	left: 195px;
+	top: 613px;
+}
+
+.main-content__button {
+	position: absolute;
+	width: 271px;
+	height: 57px;
+	left: 196px;
+	top: 706px;
+	border-radius: 4px;
+	background: #0056EC;
 }
