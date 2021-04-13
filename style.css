@@ -2,9 +2,7 @@
 	font-family: Roboto;
 }
 
-*{
-	border: dashed 1px red;
-} 
+
 
 body {
 	margin: 0;
@@ -34,11 +32,13 @@ body {
 }
 
 .navigation__item {
-	padding: 0 13px;
+	position: relative;
+	margin-right: 26px;
+	font: 500 18px/21px Roboto, arial, helvetica, sans-serif; color: #000; text-decoration: none;
 }
 
 .navigation__item:last-child {
-	padding-right:0;
+	margin-right:0;
 }
 
 .main-content__title {
@@ -87,5 +87,14 @@ body {
 	left: 8px;
 	top: 56%;
 	background: #C8DBFB;
+}
 
+.navigation__item_active::after{
+	position: absolute;
+	display: block;
+	left: 0;
+	content: "";
+	width: 68px;
+	height: 3px
+	color: #0056EC;
 }
